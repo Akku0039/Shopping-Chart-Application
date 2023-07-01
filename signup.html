@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Navigation menu goes here -->
+    <div class="brand">
+      <a href="/">MesShop.</a>
+    </div>
+    <div class="nav-items">
+      <li><a href="/">Home</a></li>
+      <li><a href="/login.html">Login</a></li>
+      <li><a href="/signup.html">Signup</a></li>
+      <li><a href="/cart.html">Cart</a></li>
+      <li><a href="/profile.html">Profile</a></li>
+    </div>
+
+  </nav>
+  <h1>Signup</h1>
+  <form id="signup-form">
+    <input type="text" id="first-name" placeholder="First Name" required>
+    <br>
+    <br>
+    <input type="text" id="last-name" placeholder="Last Name" required>
+    <br>
+    <br>
+    <input type="email" id="email" placeholder="Email" required>
+    <br>
+    <br>
+    <input type="password" id="password" placeholder="Password" required>
+    <br>
+    <br>
+    <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+    <br>
+    <br>
+    <button id="sg"  type="submit">Signup</button>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>

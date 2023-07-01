@@ -1,0 +1,97 @@
+#lo ,#sg,.change-password-button,.logout-button{
+    background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#email ,#first-name{
+  width: 100%;
+  height: 35px;
+  
+}
+#password , #last-name ,#confirm-password{
+  width: 100%;
+  height: 35px;
+}
+#mp ,#ep{
+  margin-left: 600px;
+}
+.navbar{
+height: 35px;
+  background-color: #171515;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.brand a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-items li a{
+  color: #fff;
+  text-decoration: none;
+}
+.nav-items li{
+  margin-right: 10px;
+}
+.nav-items li a:hover{
+  text-decoration: underline;
+}
+#sl{
+  background-color: white;
+  color:black;
+  border: 2px solid #000;
+  padding: 10px 40px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.in{
+  display: flex;
+  
+}
+.mn{
+  margin-left: 300px;
+}
+.body{
+  margin: 200px;
+  padding: 40px;
+}
+#cart-container{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 900px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  
+}
+#search-input{
+  width: 1500px;
+  height: 35px;
+}
+#men-toggle ,#women-toggle,#electronics-toggle,#jewellery-toggle,
+#all-toggle{
+  margin-left: 90px;
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid black;
+
+}
